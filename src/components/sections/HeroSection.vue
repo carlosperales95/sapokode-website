@@ -1,6 +1,6 @@
 <template>
 <!--     bg-[linear-gradient(0deg,rgba(26,26,26,0.5)_0%,rgba(0,0,0,1)_2%)] -->
-    <div class="h-[100vh] w-full flex p-1 overflow-hidden">
+    <div class="h-[100vh] w-full flex p-1 overflow-hidden bg-[linear-gradient(0deg,rgba(26,26,26,0.5)_0%,rgba(0,0,0,1)_2%)]">
         <div class="mx-24 mt-56 w-full mb-0 text-left overflow-hidden font-karma">
             <BiColumn class="h-50" :modifier="true">
                 <template v-slot:left>
