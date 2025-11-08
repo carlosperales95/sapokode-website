@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
       <NavBar />
       <HeroSection @trigger-show="triggerAboutMe"></HeroSection>
     <!-- <div v-if="!hideContent">

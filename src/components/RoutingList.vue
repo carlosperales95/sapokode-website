@@ -4,12 +4,12 @@
         v-for="(page, index) in pages"
         :key="index"
         >
-            <router-link
-            class="filled-background"
+            <RouterLink
+            class="filled-bg"
             :to="page == 'home' ? '/' : `/${page}`"
             >
                 {{ page.toUpperCase() }}
-            </router-link>
+            </RouterLink>
         </li>
     </ul>
 </template>
