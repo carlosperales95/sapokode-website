@@ -1,8 +1,8 @@
 <template>
-    <div class="hero-container">
+    <div class="flex p-1 overflow-hidden bg-[linear-gradient(0deg,rgba(26,26,26,0.5)_0%,rgba(0,0,0,1)_2%)]">
         <div class="nav-container">
-            <div class="links">
-                <BiColumn class="hero-size" :modifier="true">
+            <div class="mx-[20%] mt-8 mb-0 text-left overflow-hidden font-karma">
+                <BiColumn class="hero-size h-50 mt-2" :modifier="true">
                     <template v-slot:left>
                         <RoutingList :pages="['projects', 'devlogs', 'photography']"></RoutingList>
                     </template>

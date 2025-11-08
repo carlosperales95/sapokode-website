@@ -12,7 +12,7 @@
                 <p class="description-line">Other: Likes plants</p>
             </div>
             <div class="employee-img">
-                <img src='../../assets/sapokode-img.png'>
+                <img :src="sapokodeImg">
             </div>
             </div>
             <p class="about-description">{{ aboutMe }}</p>
@@ -29,6 +29,7 @@ const scrollAmount = ref(0);
 const elemTop = ref(0);
 const elem = useTemplateRef('aboutsec');
 
+const sapokodeImg = new URL('@/assets/sapokode-img.png', import.meta.url).href;
 
 onMounted(() => {
     elemTop.value = elem.value.top;
