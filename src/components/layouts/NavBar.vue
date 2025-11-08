@@ -1,8 +1,16 @@
 <template>
     <IconsRepo/>
-    <div id="navbar" class="wrapper-reverse karma" :class="barStyle === 'full' ? 'full' : 'bar'">
+    <div
+        id="navbar"
+        class="flex flex-row-reverse karma overflow-hidden transition-all duration-500 ease-in"
+        :class="barStyle === 'full' ? 'full' : 'bar'"
+    >
         <SocialsBar :class="barStyle === 'full' ? '' : 'negative-colored'"/>
-        <div id="logo" class="wrapper" :class="barStyle === 'full' ? 'nav-title' : 'nav-logo'">
+        <div
+            id="logo"
+            class="wrapper"
+            :class="barStyle === 'full' ? 'nav-title' : 'nav-logo'"
+        >
             <div class="starburst">
                 <span> Hello! </span>
             </div>

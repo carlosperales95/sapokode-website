@@ -2,7 +2,7 @@
   <div>
       <NavBar />
       <HeroSection @trigger-show="triggerAboutMe"></HeroSection>
-    <div v-if="!hideContent">
+    <!-- <div v-if="!hideContent">
       <TitleSeparator
         :hasCenteredElem="true"
         :header="'sapokode'"
@@ -34,7 +34,7 @@
         :hasCenteredElem="false"
         :header="'contact'"
       />
-    </div>
+    </div> -->
   </div>
 </template>
 

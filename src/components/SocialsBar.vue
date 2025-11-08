@@ -1,5 +1,5 @@
 <template>
-    <div class="socials-container">
+    <div class="flex w-full">
         <ul>
             <li v-for="social in socials" :key="social.id">
                 <a class="social-link" :href="social.url">
