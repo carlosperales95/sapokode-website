@@ -1,3 +1,5 @@
+const colors = require("tailwindcss/colors");
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,6 +11,12 @@ export default {
       fontFamily: {
         karma: ['Source Karma', 'serif'],
       },
+      colors: {
+        primary: colors.orange,
+        secondary: colors.teal,
+        tertiary: colors.emerald,
+        dark: colors.slate,
+			},
     },
   },
   plugins: [],
